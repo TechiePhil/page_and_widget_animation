@@ -15,7 +15,6 @@ SingleTickerProviderStateMixin {
   
   double height = 200;
   double width = 200;
-  double angle = .0;
   
   @override
   void initState() {
@@ -75,9 +74,8 @@ SingleTickerProviderStateMixin {
                   onPressed: () {
                     // rotate the box 360 degree
                     setState(() {
-                      height = 200;
-                      width = 200;
-                      // angle = rotationAnimation.value;
+                      // height = 200;
+                      // width = 200;
                     });
                     
                     controller.forward(from: 0);

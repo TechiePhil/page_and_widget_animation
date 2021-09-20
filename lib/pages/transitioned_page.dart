@@ -12,7 +12,8 @@ class TransitionedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.pinkAccent[100],
+        elevation: 200,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios
