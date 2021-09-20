@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:page_and_widget_animation/animated_widgets/like_button_animator.dart';
-// import 'pages/main_page.dart';
+import 'pages/main_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LikeButtonAnimator(),
-      // home: MainPage(),
+      home: MainPage(),
     );
   }
 }

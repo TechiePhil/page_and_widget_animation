@@ -11,15 +11,15 @@ class TransitionedPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   backgroundColor: Colors.deepOrangeAccent,
-      //   leading: IconButton(
-      //     icon: Icon(
-      //       Icons.arrow_back_ios
-      //     ),
-      //     onPressed: () => Navigator.pop(context),
-      //   )
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.deepOrangeAccent,
+        leading: IconButton(
+          icon: Icon(
+            Icons.arrow_back_ios
+          ),
+          onPressed: () => Navigator.pop(context),
+        )
+      ),
       body: AnimatedBuilder(
         animation: animation.controller,
         builder: createAnimation
